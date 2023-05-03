@@ -1,0 +1,49 @@
+@import "../global.css";
+
+.noteBrowse {
+  padding: 20px;
+}
+.notebox {
+  position: relative;
+  background: #f1c75b;
+  border-radius: 19px;
+  padding: 20px 30px;
+  margin-left: 20px;
+  font-family: rb, sans-serif;
+}
+.notebox h3 {
+  font-size: 25px;
+}
+.notebox textarea {
+  width: 100%;
+  height: 550px;
+  margin: 20px 0;
+  padding: 10px;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
+
+.notebox .edit {
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+  border: none;
+  background-color: #000;
+  border-radius: 50%;
+  padding: 15px;
+}
+.browseBtn {
+  background-color: #148a08;
+  color: #fff;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 25px;
+  font-family: dm, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 10px;
+  float: right;
+}

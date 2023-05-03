@@ -1,0 +1,8 @@
+@import "../global.css";
+
+.browserSection {
+  color: aliceblue;
+}
+.browserSection .container {
+  padding: 20px 80px;
+}

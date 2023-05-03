@@ -1,0 +1,58 @@
+@import "../global.css";
+
+.timerBox {
+  background: #1e2343;
+  border-radius: 19px;
+  margin: 10px 0;
+  color: #fff;
+  padding: 20px 50px;
+}
+.progressBar {
+  background: #191e39;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 200px;
+  box-shadow: -3px -7px 16px rgba(95, 88, 88, 0.23),
+    inset 0px 6px 26px rgba(0, 0, 0, 0.61);
+}
+.progressBar div {
+  width: 220px !important;
+  height: 220px !important;
+  margin: 30px auto;
+  text-align: center;
+}
+.timerBox .timer {
+  text-align: center;
+}
+.timer div {
+  margin: 0 25px;
+}
+.timer h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #949494;
+}
+.timer img {
+  margin: 20px 0;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.timer p {
+  font-size: 30px;
+  font-weight: 400;
+}
+.timer .startBtn {
+  background-color: #ff6a6a;
+  display: block;
+  width: 100%;
+  border-radius: 28px;
+  padding: 10px;
+  color: #fff;
+  font-size: 25px;
+  border: none;
+  margin: 10px 0;
+}

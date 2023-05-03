@@ -1,0 +1,46 @@
+@import "../global.css";
+
+.weather {
+  background: #101744;
+  margin: 10px 0;
+  border-radius: 33.428px;
+  font-family: rb, sans-serif;
+  color: #fff;
+}
+.dateBox {
+  background: #ff4ade;
+  padding: 25px 40px;
+  border-radius: 33.428px 33.428px 0px 0px;
+}
+.dateBox h2 {
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.weatherInfo {
+  background-color: #101744;
+  padding: 20px 40px;
+  border-radius: 33.428%;
+}
+.weatherInfo h3 {
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.weatherInfo h4 {
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.weatherInfo p {
+  margin: 10px 0;
+  font-weight: 400;
+}
+.weatherInfo img {
+  margin: 0 10px;
+}

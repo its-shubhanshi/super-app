@@ -1,0 +1,84 @@
+@import "../global.css";
+
+.rightSide {
+  background-color: #000;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.rightSide .text1{
+  margin: 10px 0;
+  font-family: dm,sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.rightSide .text2{
+  margin: 10px 0;
+  font-family: dm,sans-serif;
+}
+.rightSide .text2 a{
+  color: #fff;
+  margin: 0 10px ;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.formBox {
+  margin: 20px 100px;
+  text-align: left;
+}
+.formBox input {
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #292929;
+  border: #292929;
+  border-radius: 3.81584px;
+  font-family: dm, sans-serif;
+}
+.formBox input::placeholder {
+  color: #7c7c7c;
+}
+.formBox input[type="checkbox"] {
+  display: inline-block !important;
+  width: max-content;
+}
+
+.formBox span {
+  color: #7c7c7c;
+  font-size: 18px;
+  margin: 0 10px;
+  font-family: dm, sans-serif;
+  letter-spacing: 1px;
+}
+.formbtnactive{
+  background-color: #048a06 !important;
+}
+.formbtnactive, .signBtn {
+  width: 100%;
+  padding: 12px 0;
+  text-transform: uppercase;
+  background: #72db73;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 28px;
+  border: #72db73;
+  font-family: rb, sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 20px 0;
+}
+.formbtnactive a,  .signBtn a{color: #fff;}
+
+.formBox p.termText{
+  color: #7C7C7C;
+  margin: 10px 0;
+  font-size:16px;
+  font-family: dm,sans-serif;
+}
+.formBox p a{
+  color:#72db73;
+}

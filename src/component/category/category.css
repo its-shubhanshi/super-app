@@ -1,0 +1,79 @@
+@import "../global.css";
+
+.categorySection {
+  color: #fff;
+}
+.categoryLeft {
+  padding: 70px;
+}
+
+.categoryLeft h3 {
+  font-size: 45px;
+  font-family: rb, sans-serif;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 30px 0;
+  letter-spacing: 1px;
+}
+
+.categoryLeft .choseBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.categoryLeft .chooseValue {
+  width: 180px;
+  background: #148a08;
+  border-radius: 31px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font: 19px rb, sans-serif;
+  margin: 10px 15px 10px 0;
+  border: none;
+  color: #fff;
+}
+
+.categoryLeft span.crossIcon {
+  float: right;
+  color: #085c00;
+  cursor: pointer;
+}
+
+.categoryRight {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.categoryRight .boxes {
+  flex-basis: 24%;
+  max-width: 24%;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 8px 10px;
+  cursor: pointer;
+}
+.categoryRight .boxes h4 {
+  font-size: 22px;
+  margin: 5px;
+  letter-spacing: 1px;
+}
+.categoryRight img {
+  margin: 5px 0;
+}
+.nextBtn {
+  background: #148a08;
+  border-radius: 38.8571px;
+  font: 20px dm, sans-serif;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  margin-top: 10px;
+  position: absolute;
+  right: 7%;
+}

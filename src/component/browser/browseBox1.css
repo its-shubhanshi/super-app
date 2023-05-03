@@ -1,0 +1,41 @@
+@import "../global.css";
+
+.browseBox1 {
+  background: #5746ea;
+  border-radius: 33.428px;
+  padding: 30px;
+  font-family: rb, sans-serif;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.browseBox1 img {
+  height: auto;
+  max-width: 75%;
+}
+
+.profileInfo p {
+  font-size: 23px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.profileInfo h3 {
+  font-size: 40px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+.profileInfo .CategoryBtn {
+  width: 40%;
+  background: #9f94ff;
+  border-radius: 36.9467px;
+  border: none;
+  padding: 15px 30px;
+  margin-right: 10px;
+  margin-top: 20px;
+  color: #fff;
+  text-align: left;
+}
+.profileInfo .crossIcon {
+  color: #636262;
+  margin-left: 20px;
+  float: right;
+}

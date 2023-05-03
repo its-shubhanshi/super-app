@@ -1,0 +1,42 @@
+@import "../global.css";
+
+.newsBox {
+  margin-left: 20px;
+  font-family: rb, sans-serif;
+}
+.newsBox .newsImg {
+  position: relative;
+}
+.newsBox .newsTitle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  color: #fff;
+}
+.newsTitle h2 {
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.newsTitle p {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+.newsTitle p span {
+  margin-right: 20px;
+}
+.newsPara {
+  background: #fff;
+  border-radius: 0px 0px 19px 19px;
+  font-size: 18px;
+  color: #272727;
+  padding: 20px 30px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 30px;
+  word-spacing: 5px;
+}
